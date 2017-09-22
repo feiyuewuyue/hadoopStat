@@ -1,0 +1,7 @@
+checkpint.dir.rank: "hdfs://nameservice1/spark/checkpoint_rank/"
+spark.rank.batch.interval_sec: "5"
+kafka.hosts.rank: "183.131.54.162:9092,183.131.54.163:9092,183.131.54.164:9092,183.131.54.165:9092,183.131.54.166:9092"
+kafka.topic.rank: "strong-nginx-access,firm_logs"
+kafka.groupid.rank.statis: "spark_rank_proc"
+es.nodes.rank: "183.136.128.47"
+es.port.rank: "9200"

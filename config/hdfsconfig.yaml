@@ -1,0 +1,7 @@
+hdfs.data.rootPath: "/tmp/group"
+hdfs.rotation.block.size.MB: "600"
+hdfs.rotation.interval.ms: "1800000"
+fs.defaultFS: "hdfs://183.131.54.142:8020"
+io.compression.codecs: "org.apache.hadoop.io.compress.DefaultCodec,org.apache.hadoop.io.compress.GzipCodec,org.apache.hadoop.io.compress.BZip2Codec,org.apache.hadoop.io.compress.DeflateCodec,org.apache.hadoop.io.compress.SnappyCodec,org.apache.hadoop.io.compress.Lz4Codec"
+io.compression.codec.lzo.class: "org.apache.hadoop.io.compress.SnappyCodec"
+delay_time_duration_minutes: "60"
